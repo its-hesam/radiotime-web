@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Rolos Chicken">
+  <link rel="stylesheet" type="text/css" href="./AddToHome/style/addtohomescreen.css">
+  <script>
+    if(
+      (("standalone" in window.navigator) && !window.navigator.standalone)
+      ||
+      ( window.matchMedia('display-mode: standalone').matches)
+    )
+      {
+        addToHomescreen();
+      }
+  </script>
+  <script src="./AddToHome/js/addtohomescreen.js"></script>
+  <title>Radio Time App</title>
+  <link rel="icon" type="image/png" href="./asset/icon.png">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="checknet"></div>
+ <!--top-->
+    <div class="container">
+        <div class="image">
+   <img src="./asset/icon.png">
+        </div>
+ <h1 style="color: white;">Radio Time®</h1>
+      </div>
+  <!---->
+  <button class="button button2"  onclick="location.href = './pages/farsi/index.html';"><img src="./asset/iran.png" style="width: 30px; height: 30px;"> Radio Farsi &nbsp;&nbsp;&nbsp;&nbsp;</button>
+  <button class="button button2"  onclick="location.href = './pages/turkish/index.html';"><img src="./asset/turkey.png" style="width: 30px; height: 30px;"> Radio Turkish</button>  
+  <button class="button button2"  onclick="location.href = './pages/english/index.html';"><img src="./asset/usa.png" style="width: 30px; height: 30px;"> Radio English</button> 
+  <button class="button button2"  onclick="location.href = './pages/arabic/index.html';"><img src="./asset/arabic.png" style="width: 30px; height: 30px;"> Radio Arabic &nbsp;&nbsp;&nbsp;</button> 
+  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
+  <h2>⭐⭐⭐</h2>
+<div class="btn-group">
+  <button id="myBtn">About Us</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h1>About Us</h1>
+      </div>
+      <div class="modal-body">
+        <p>Hi Im Hesam , Im Node.js Developer</p>
+        <p>Radio Time V1.0</p>
+      </div>
+    </div>
+  </div>
+ <a href="https://google.com"><button>Rate Us</button></a>
+ <a href="https://google.com" ><button>Web Version</button></a>
+</div>
+</div>
+    <!--- Radio Time®-->
+
+<script  src="./js/script.js"></script>
+<script src="./js/sweetalert2.all.min.js"></script>
+
+
+<footer>
+  <p style="  margin: 4px;
+  font-size: 90%;">v1.0<br>
+</footer>
+</body>
+</html>

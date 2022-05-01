@@ -1,0 +1,28 @@
+{
+  "name": "radio-time-web",
+  "version": "1.0.0",
+  "description": "radio time app web version",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hesawmgh1098/radio-time-web.git"
+  },
+  "keywords": [
+    "webapp",
+    "radio",
+    "web"
+  ],
+  "author": "Hesam TVS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hesawmgh1098/radio-time-web/issues"
+  },
+  "homepage": "https://github.com/hesawmgh1098/radio-time-web#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "path": "^0.12.7"
+  }
+}

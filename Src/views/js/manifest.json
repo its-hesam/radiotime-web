@@ -1,0 +1,17 @@
+{
+    "name" : "Radio Time",
+    "icons":[
+        {
+            "src": "../asset/icon.png",
+            "size": "36*36",
+            "type": "image\/png",
+            "density" : "0.75"
+        },
+        {
+            "src": "../asset/icon.png",
+            "size": "48*48",
+            "type": "image\/png",
+            "density" : "1.0"
+        }
+    ]
+}
